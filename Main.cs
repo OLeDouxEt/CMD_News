@@ -5,5 +5,5 @@ string testRSS = "https://lifehacker.com/rss";
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("|-----[ CMD NEWS! ]-----|");
 Console.WriteLine("|_______________________|");
-string test = await DataController.Get_Feed(testRSS);
-//Console.WriteLine(test);
+string justXML = await DataController.Get_Feed(testRSS);
+List<NewsItem> TestParse = DataController.ParseXML(justXML);

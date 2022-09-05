@@ -26,16 +26,26 @@ namespace CMD_News
 
             return responseString;
         }
-    }
 
-    public static string ParseXML(string rawXML)
-    {
-        XmlDocument xmlDoc = new XmlDocument();
-        xmlDoc.LoadXml(rawXML);
-        XmlNodeList parentNode = xmlDoc.GetElementsByTagName("channel");
-        foreach (XmlNode node in parentNode)
+        // This function will be called in the "Main" portion of the program
+        // to extract the title, date published, and link information for each 
+        // news story. The function will return a list "NewsItem" objects for
+        // the view to display.
+        public static List<NewsItem> ParseXML(string rawXML)
         {
-            Console.WriteLine(node.InnerXml);
+            List<NewsItem> storyList = new List<NewsItem>();
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(rawXML);
+            // Not sure what to use 'channelNode' for yet..
+            XmlNodeList channelNode = xmlDoc.GetElementsByTagName("channel");
+            XmlNodeList newsItems = xmlDoc.GetElementsByTagName("item");
+            foreach (XmlNode news in newsItems)
+            {
+                XmlNodeList titleNode = news.SelectNodes("title");
+                Console.WriteLine(titleNode[0].InnerText);
+                //string tempTitle = news.GetElementsByTagName();
+            }
+            return storyList;
         }
     }
 }
