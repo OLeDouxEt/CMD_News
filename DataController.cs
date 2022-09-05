@@ -41,9 +41,11 @@ namespace CMD_News
             XmlNodeList newsItems = xmlDoc.GetElementsByTagName("item");
             foreach (XmlNode news in newsItems)
             {
-                XmlNodeList titleNode = news.SelectNodes("title");
-                Console.WriteLine(titleNode[0].InnerText);
-                //string tempTitle = news.GetElementsByTagName();
+                string tempTitle = news.SelectSingleNode("title").InnerText;
+                string tempDate = news.SelectSingleNode("pubDate").InnerText;
+                string tempLink = news.SelectSingleNode("link").InnerText;
+                NewsItem tempNews = new NewsItem(tempTitle, tempDate, tempLink);
+                storyList.Add(tempNews);
             }
             return storyList;
         }
