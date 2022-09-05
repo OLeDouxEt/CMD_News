@@ -1,0 +1,15 @@
+C:\C# Projects\CMD_News\bin\Debug\net6.0\CMD_News.exe
+C:\C# Projects\CMD_News\bin\Debug\net6.0\CMD_News.deps.json
+C:\C# Projects\CMD_News\bin\Debug\net6.0\CMD_News.runtimeconfig.json
+C:\C# Projects\CMD_News\bin\Debug\net6.0\CMD_News.dll
+C:\C# Projects\CMD_News\bin\Debug\net6.0\ref\CMD_News.dll
+C:\C# Projects\CMD_News\bin\Debug\net6.0\CMD_News.pdb
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.csproj.AssemblyReference.cache
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.GeneratedMSBuildEditorConfig.editorconfig
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.AssemblyInfoInputs.cache
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.AssemblyInfo.cs
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.csproj.CoreCompileInputs.cache
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.dll
+C:\C# Projects\CMD_News\obj\Debug\net6.0\ref\CMD_News.dll
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.pdb
+C:\C# Projects\CMD_News\obj\Debug\net6.0\CMD_News.genruntimeconfig.cache
