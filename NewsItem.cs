@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CMD_News
+﻿namespace CMD_News
 {
     // This is just used as a basic blueprint for all the news itmes pulled
     // in from a RSS feed.

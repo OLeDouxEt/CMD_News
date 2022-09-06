@@ -1,5 +1,6 @@
 ﻿using CMD_News;
-using System.Xml;
+using System;
+using System.Collections.Generic;
 
 string testRSS = "https://lifehacker.com/rss";
 Console.ForegroundColor = ConsoleColor.Yellow;
