@@ -1,8 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Xml;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace CMD_News
 {
@@ -23,7 +25,6 @@ namespace CMD_News
             {
                 Console.WriteLine(responseString = err.Message);
             }
-
             return responseString;
         }
 
@@ -49,5 +50,47 @@ namespace CMD_News
             }
             return storyList;
         }
+
+        public static List<string> GetSitesConfig()
+        {
+            string currDir = Directory.GetCurrentDirectory();
+            string configPath = $"{currDir}\\News_Sites_Config.txt";
+            List<string> returnable = new List<string>();
+            if (!File.Exists(configPath))
+            {
+                FileStream figfile = File.Create(configPath);
+                figfile.Close();
+            }
+            try
+            {
+                string configText = File.ReadAllText(configPath);
+                // Adding a message to the user to add sites to the config file if no
+                // text is found.
+                if(configText.Length == 0)
+                {
+                    string figMess = "No news sites found in \"News_Sites_Config.txt\". You\'ll need to add some first.";
+                    returnable.Add(figMess);
+                }
+                else
+                {
+                    string[] sitesArr = configText.Split(',');
+                    for (int i=0;i<sitesArr.Length;i++)
+                    {
+                        returnable.Add(sitesArr[i].Trim());
+                    }
+                }
+            }
+            catch
+            {
+                returnable.Add("Error reading from file. Make sure \"News_Sites_Config.txt\" exists.");
+            }
+            return returnable;
+        }
+        /*
+        public static string ExtractStory (string url)
+        {
+
+        }
+        */
     }
 }

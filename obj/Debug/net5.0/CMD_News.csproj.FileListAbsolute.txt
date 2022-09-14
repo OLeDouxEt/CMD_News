@@ -1,0 +1,16 @@
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.exe
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.deps.json
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.runtimeconfig.json
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.runtimeconfig.dev.json
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.dll
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\ref\CMD_News.dll
+C:\Users\Command\Documents\GitHub\CMD_News\bin\Debug\net5.0\CMD_News.pdb
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.csproj.AssemblyReference.cache
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.AssemblyInfoInputs.cache
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.AssemblyInfo.cs
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.csproj.CoreCompileInputs.cache
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.dll
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\ref\CMD_News.dll
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.pdb
+C:\Users\Command\Documents\GitHub\CMD_News\obj\Debug\net5.0\CMD_News.genruntimeconfig.cache
